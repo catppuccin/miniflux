@@ -1,6 +1,8 @@
 # Miniflux Catppuccin
 
-This repo holds a simple `theme.css` file for [miniflux](https://miniflux.app), along with screenshots to show what the theme looks like, and instructions on how to use it. This is still a work in progress, however I am sharing it at this point as it is a useable state.
+![image](https://github.com/mark-pitblado/miniflux-catppuccin/assets/86988982/bf4ba126-8c59-4c66-9419-a6e3df8f9d81)
+
+This repo holds a simple `theme.css` file for [miniflux](https://miniflux.app), along with screenshots to show what the theme looks like, and instructions on how to use it. This is still a work in progress, however I am sharing it at this point as it is in a useable state.
 
 ## Installation
 
@@ -12,6 +14,7 @@ If you would like to customize the css further, you can either do so directly in
 
 ## Contributions
 
-I am open to contributions to the theme, so long as they align with the [catppuccin mocha style](https://github.com/catppuccin/catppuccin). You can also make similar styles for latte, frappe, and macchiato and submit those as pull request!
+I am open to contributions to the theme, so long as they align with the [catppuccin mocha style](https://github.com/catppuccin/catppuccin). You can also make similar styles for latte, frappe, and macchiato and submit those as pull request, or of course make your own!
+
 
 

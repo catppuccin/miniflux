@@ -302,14 +302,14 @@ td {
 
 
 :root {
-    --base: #1e1e2e; /* dark mode background */
+    --base: #1e1e2e; 
     --surface0: #313244;
     --surface1: #45475a;
     --surface2: #585b70;
     --overlay0: #6c7086;
     --overlay1: #7f849c;
     --overlay2: #9399b2;
-    --subtext0: #a6adc8; /* light mode background */
+    --subtext0: #a6adc8; 
     --text: #cdd6f4; 	
     --yellow: #f9e2af;
     --peach: #fab387;

@@ -23,11 +23,11 @@ main {
 }
 
 .confirm {
-  color: var(--alert-error-color);
+  color: var(--red);
 }
 
 .confirm > a {
-  color: var(--alert-error-color);
+  color: var(--red);
 }
 
 
@@ -368,7 +368,7 @@ td {
     --alert-success-color: var(--green);
     --alert-success-background-color: var(--surface0);
     --alert-success-border-color: var(--overlay1);
-    --alert-error-color: var(--red);
+    --alert-error-color: var(--overlay0);
     --alert-error-background-color: var(--violet);
     --alert-error-border-color: var(--overlay1);
     --alert-info-color: var(--overlay0);

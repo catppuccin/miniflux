@@ -22,6 +22,15 @@ main {
   margin-top: 20px;
 }
 
+.confirm {
+  color: var(--alert-error-color);
+}
+
+.confirm > a {
+  color: var(--alert-error-color);
+}
+
+
 /* Focus styles */
 a:focus,
 button:focus,
@@ -356,10 +365,10 @@ td {
     --alert-color: var(--overlay0);
     --alert-background-color: var(--base);
     --alert-border-color: var(--overlay1);
-    --alert-success-color: var(--overlay0);
+    --alert-success-color: var(--green);
     --alert-success-background-color: var(--surface0);
     --alert-success-border-color: var(--overlay1);
-    --alert-error-color: var(--overlay0);
+    --alert-error-color: var(--red);
     --alert-error-background-color: var(--violet);
     --alert-error-border-color: var(--overlay1);
     --alert-info-color: var(--overlay0);

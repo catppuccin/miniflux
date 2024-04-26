@@ -26,6 +26,11 @@ main {
   color: var(--red);
 }
 
+.confirm > button {
+  color: var(--red);
+  margin-left: 5px;
+}
+
 .confirm > a {
   color: var(--red);
 }
@@ -150,7 +155,7 @@ section.page-footer > ul > li > a > .icon {
   background-color: var(--alert-background-color);
 }
 
-.confirm a:first-of-type {
+confirm a:first-of-type {
   margin-left: 0.25rem;
 }
 

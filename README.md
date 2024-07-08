@@ -36,8 +36,8 @@
 
 ## Usage
 
-1. In minifux, got to Settings > Custom CSS
-2. Paste the style of your choice into the text box
+1. In minifux, go to Settings > Custom CSS
+2. Paste the style of your choice into the text box at the bottom of the page.
 3. Click save
 
 ## 💝 Thanks to

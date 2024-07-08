@@ -129,8 +129,8 @@ label input[type=checkbox] {
     --button-primary-focus-background: var(--overlay1);
     --input-background: var(--surface0);
     --input-color: var(--text);
-    --input-placeholder-color: var(--text);
-    --input-focus-color: var(--overlay0);
+    --input-placeholder-color: var(--subtext1);
+    --input-focus-color: var(--text);
     --input-focus-border-color: var(--surface1);
     --input-border: var(--surface1);
     --input-focus-box-shadow: 0 0 0 2px var(--overlay1);

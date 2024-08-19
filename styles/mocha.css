@@ -20,6 +20,10 @@
     --rosewater: #f5e0dc;
 }
 
+.alert-error {
+  color: var(--body-background);
+}
+
 .confirm {
   color: var(--alert-confirm-color);
 }
@@ -143,7 +147,7 @@ label input[type=checkbox] {
     --alert-success-background-color: var(--surface0);
     --alert-success-border-color: var(--overlay1);
     --alert-error-color: var(--red);
-    --alert-error-background-color: var(--mauve);
+    --alert-error-background-color: var(--red);
     --alert-error-border-color: var(--red);
     --alert-info-color: var(--overlay0);
     --alert-info-background-color: var(--surface0);

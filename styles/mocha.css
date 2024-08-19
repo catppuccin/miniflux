@@ -1,23 +1,23 @@
 :root {
-    --base: #1e1e2e;
-    --surface0: #313244;
-    --surface1: #45475a;
-    --surface2: #585b70;
-    --overlay0: #6c7086;
-    --overlay1: #7f849c;
-    --overlay2: #9399b2;
-    --subtext0: #a6adc8;
-    --text: #cdd6f4;
-    --yellow: #f9e2af;
-    --peach: #fab387;
-    --red: #f38ba8;
-    --lavender: #b4befe;
-    --pink: #f5c2e7;
-    --mauve: #cba6f7;
-    --blue: #89b4fa;
-    --sky: #89dceb;
-    --green: #a6e3a1;
-    --rosewater: #f5e0dc;
+  --base: #1e1e2e;
+  --surface0: #313244;
+  --surface1: #45475a;
+  --surface2: #585b70;
+  --overlay0: #6c7086;
+  --overlay1: #7f849c;
+  --overlay2: #9399b2;
+  --subtext0: #a6adc8;
+  --text: #cdd6f4;
+  --yellow: #f9e2af;
+  --peach: #fab387;
+  --red: #f38ba8;
+  --lavender: #b4befe;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --blue: #89b4fa;
+  --sky: #89dceb;
+  --green: #a6e3a1;
+  --rosewater: #f5e0dc;
 }
 
 .alert-error {
@@ -53,23 +53,24 @@
   color: --var(link-hover-color);
 }
 
-input[type=search],
-input[type=url],
-input[type=password],
-input[type=text],
-input[type=number],
+input[type="search"],
+input[type="url"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
 select,
 textarea {
-  color:var(--input-color);
-  background:var(--input-background);
-  border:var(--input-border);
+  color: var(--input-color);
+  background: var(--input-background);
+  border: var(--input-border);
 }
 
-label input[type=checkbox] {
-  accent-color: var(--button-primary)
+label input[type="checkbox"] {
+  accent-color: var(--button-primary);
 }
 
-.button.button-primary:hover, .button.button-primary:focus {
+.button.button-primary:hover,
+.button.button-primary:focus {
   background-color: var(--button-primary-background);
 }
 .button.button-primary:disabled {
@@ -100,103 +101,103 @@ label input[type=checkbox] {
 }
 
 .item-meta-icons li > :is(a, button) {
-    color: var(--item-meta-li-color);
+  color: var(--item-meta-li-color);
 }
 
 .item-meta-icons li > :is(a, button):hover {
-    color: var(--item-meta-focus-color);
+  color: var(--item-meta-focus-color);
 }
 
 :root {
-    --item-status-read-title-link-color: var(--link-color);
-    --body-color: var(--text);
-    --body-background: var(--base);
-    --hr-border-color: var(--overlay1);
-    --title-color: var(--text);
-    --link-color: var(--blue);
-    --link-focus-color: var(--surface1);
-    --link-hover-color: var(--lavender);
-    --link-visited-color: var(--mauve);
-    --header-list-border-color: var(--overlay1);
-    --header-link-color: var(--blue);
-    --header-link-focus-color: var(--key);
-    --header-link-hover-color: var(--lavender);
-    --header-active-link-color: var(--overlay1);
-    --table-border-color: var(--overlay1);
-    --table-th-background: var(--surface0);
-    --table-th-color: var(--overlay0);
-    --table-tr-hover-background-color: var(--base);
-    --table-tr-hover-color: var(--overlay0);
-    --button-primary-border-color: var(--overlay0);
-    --button-primary-background: var(--overlay0);
-    --button-primary-color: var(--base);
-    --button-primary-focus-border-color: var(--overlay1);
-    --button-primary-focus-background: var(--overlay1);
-    --input-background: var(--surface0);
-    --input-color: var(--text);
-    --input-placeholder-color: var(--subtext1);
-    --input-focus-color: var(--text);
-    --input-focus-border-color: var(--surface1);
-    --input-border: var(--surface1);
-    --input-focus-box-shadow: 0 0 0 2px var(--overlay1);
-    --alert-color: var(--yellow);
-    --alert-confirm-color: var(--red);
-    --alert-background-color: var(--base);
-    --alert-border-color: var(--overlay1);
-    --alert-success-color: var(--green);
-    --alert-success-background-color: var(--surface0);
-    --alert-success-border-color: var(--overlay1);
-    --alert-error-color: var(--red);
-    --alert-error-background-color: var(--red);
-    --alert-error-border-color: var(--red);
-    --alert-info-color: var(--overlay0);
-    --alert-info-background-color: var(--surface0);
-    --alert-info-border-color: var(--surface0);
-    --page-header-title-border-color: var(--overlay1);
-    --logo-color: var(--text);
-    --logo-hover-color-span: var(--blue);
-    --panel-background: var(--base);
-    --panel-border-color: var(--overlay1);
-    --panel-color: var(--text);
-    --modal-background: var(--base);
-    --modal-color: var(--overlay0);
-    --modal-box-shadow: 2px 0 5px 0 var(--overlay1);
-    --pagination-link-color: var(--blue);
-    --pagination-border-color: var(--overlay1);
-    --category-color: var(--text);
-    --category-background-color: var(--surface0);
-    --category-border-color: var(--overlay1);
-    --category-link-color: var(--blue);
-    --category-link-hover-color: var(--lavender);
-    --item-header-color: var(--text);
-    --item-border-color: var(--overlay1);
-    --item-status-unread-title-link-color: var(--blue);
-    --item-status-read-title-link-color: var(--mauve);
-    --item-status-read-title-focus-color: var(--overlay1);
-    --item-meta-focus-color: var(--text);
-    --item-meta-icons-external-url: var(--subtext0);
-    --item-meta-li-color: var(--subtext0);
-    --item-meta-icons-star: var(--subtext0);
-    --current-item-border-color: var(--surface0);
-    --entry-header-border-color: var(--overlay1);
-    --entry-header-title-link-color: var(--text);
-    --entry-meta-color: var(--mauve);
-    --entry-author-color: var(--green);
-    --entry-content-color: var(--text);
-    --entry-content-code-color: var(--blue);
-    --entry-content-code-background: var(--base);
-    --entry-content-code-border-color: var(--overlay1);
-    --entry-content-fig-caption: var(--subtext0);
-    --entry-content-quote-color: var(--mauve);
-    --entry-content-abbr-border-color: var(--overlay1);
-    --entry-enclosure-border-color: var(--overlay1);
-    --parsing-error-color: var(--overlay1);
-    --feed-parsing-error-background-color: var(--surface0);
-    --feed-parsing-error-border-color: var(--red);
-    --feed-has-unread-background-color: var(--surface0);
-    --feed-has-unread-border-color: var(--text);
-    --category-has-unread-background-color: var(--surface0);
-    --category-has-unread-border-color: var(--sky);
-    --keyboard-shortcuts-li-color: var(--overlay0);
-    --counter-color: var(--overlay0);
-  }
+  --item-status-read-title-link-color: var(--link-color);
+  --body-color: var(--text);
+  --body-background: var(--base);
+  --hr-border-color: var(--overlay1);
+  --title-color: var(--text);
+  --link-color: var(--blue);
+  --link-focus-color: var(--surface1);
+  --link-hover-color: var(--lavender);
+  --link-visited-color: var(--mauve);
+  --header-list-border-color: var(--overlay1);
+  --header-link-color: var(--blue);
+  --header-link-focus-color: var(--key);
+  --header-link-hover-color: var(--lavender);
+  --header-active-link-color: var(--overlay1);
+  --table-border-color: var(--overlay1);
+  --table-th-background: var(--surface0);
+  --table-th-color: var(--overlay0);
+  --table-tr-hover-background-color: var(--base);
+  --table-tr-hover-color: var(--overlay0);
+  --button-primary-border-color: var(--overlay0);
+  --button-primary-background: var(--overlay0);
+  --button-primary-color: var(--base);
+  --button-primary-focus-border-color: var(--overlay1);
+  --button-primary-focus-background: var(--overlay1);
+  --input-background: var(--surface0);
+  --input-color: var(--text);
+  --input-placeholder-color: var(--subtext1);
+  --input-focus-color: var(--text);
+  --input-focus-border-color: var(--surface1);
+  --input-border: var(--surface1);
+  --input-focus-box-shadow: 0 0 0 2px var(--overlay1);
+  --alert-color: var(--yellow);
+  --alert-confirm-color: var(--red);
+  --alert-background-color: var(--base);
+  --alert-border-color: var(--overlay1);
+  --alert-success-color: var(--green);
+  --alert-success-background-color: var(--surface0);
+  --alert-success-border-color: var(--overlay1);
+  --alert-error-color: var(--red);
+  --alert-error-background-color: var(--red);
+  --alert-error-border-color: var(--red);
+  --alert-info-color: var(--overlay0);
+  --alert-info-background-color: var(--surface0);
+  --alert-info-border-color: var(--surface0);
+  --page-header-title-border-color: var(--overlay1);
+  --logo-color: var(--text);
+  --logo-hover-color-span: var(--blue);
+  --panel-background: var(--base);
+  --panel-border-color: var(--overlay1);
+  --panel-color: var(--text);
+  --modal-background: var(--base);
+  --modal-color: var(--overlay0);
+  --modal-box-shadow: 2px 0 5px 0 var(--overlay1);
+  --pagination-link-color: var(--blue);
+  --pagination-border-color: var(--overlay1);
+  --category-color: var(--text);
+  --category-background-color: var(--surface0);
+  --category-border-color: var(--overlay1);
+  --category-link-color: var(--blue);
+  --category-link-hover-color: var(--lavender);
+  --item-header-color: var(--text);
+  --item-border-color: var(--overlay1);
+  --item-status-unread-title-link-color: var(--blue);
+  --item-status-read-title-link-color: var(--mauve);
+  --item-status-read-title-focus-color: var(--overlay1);
+  --item-meta-focus-color: var(--text);
+  --item-meta-icons-external-url: var(--subtext0);
+  --item-meta-li-color: var(--subtext0);
+  --item-meta-icons-star: var(--subtext0);
+  --current-item-border-color: var(--surface0);
+  --entry-header-border-color: var(--overlay1);
+  --entry-header-title-link-color: var(--text);
+  --entry-meta-color: var(--mauve);
+  --entry-author-color: var(--green);
+  --entry-content-color: var(--text);
+  --entry-content-code-color: var(--blue);
+  --entry-content-code-background: var(--base);
+  --entry-content-code-border-color: var(--overlay1);
+  --entry-content-fig-caption: var(--subtext0);
+  --entry-content-quote-color: var(--mauve);
+  --entry-content-abbr-border-color: var(--overlay1);
+  --entry-enclosure-border-color: var(--overlay1);
+  --parsing-error-color: var(--overlay1);
+  --feed-parsing-error-background-color: var(--surface0);
+  --feed-parsing-error-border-color: var(--red);
+  --feed-has-unread-background-color: var(--surface0);
+  --feed-has-unread-border-color: var(--text);
+  --category-has-unread-background-color: var(--surface0);
+  --category-has-unread-border-color: var(--sky);
+  --keyboard-shortcuts-li-color: var(--overlay0);
+  --counter-color: var(--overlay0);
+}

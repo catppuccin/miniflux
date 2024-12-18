@@ -153,6 +153,7 @@ label input[type="checkbox"] {
   --alert-info-background-color: var(--surface0);
   --alert-info-border-color: var(--surface0);
   --page-header-title-border-color: var(--overlay1);
+  --page-header-title-color: var(--text);
   --logo-color: var(--text);
   --logo-hover-color-span: var(--blue);
   --panel-background: var(--base);

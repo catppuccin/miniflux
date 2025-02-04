@@ -20,6 +20,10 @@
   --rosewater: #f5e0dc;
 }
 
+.logo a span {
+  color: var(--green);
+}
+
 .alert-error {
   color: var(--body-background);
 }

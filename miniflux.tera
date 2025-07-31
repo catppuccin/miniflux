@@ -1,22 +1,15 @@
-:root {
-  --base: #303446;
-  --surface0: #414559;
-  --surface1: #51576d;
-  --surface2: #626880;
-  --overlay0: #737994;
-  --overlay1: #838ba7;
-  --overlay2: #949cbb;
-  --subtext0: #a5adce;
-  --text: #c6d0f5;
-  --yellow: #e5c890;
-  --peach: #ef9f76;
-  --red: #e78284;
-  --pink: #f4b8e4;
-  --mauve: #ca9ee6;
-  --blue: #8caaee;
-  --sky: #99d1db;
-  --green: #a6d189;
-  --rosewater: #f2d5cf;
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.css"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+root: {
+{%- for _, color in flavor.colors %}
+  --{{ color.identifier }}: {{ color.hex }};
+{%- endfor %}
 }
 
 .logo a span {

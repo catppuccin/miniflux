@@ -36,9 +36,10 @@
 
 ## Usage
 
-1. In minifux, go to Settings > Custom CSS
-2. Paste the style of your choice into the text box at the bottom of the page.
-3. Click save
+1. Copy your preferred flavour from the [themes](./themes) directory.
+2. In miniflux, go to Settings > Custom CSS
+3. Paste the CSS into the text box at the bottom of the page.
+4. Click save.
 
 ## 💝 Thanks to
 

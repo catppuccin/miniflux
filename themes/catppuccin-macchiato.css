@@ -61,7 +61,7 @@
 
 .entry header h1 a:hover,
 .entry header h1 a:focus {
-  color: --var(link-hover-color);
+  color: var(--link-hover-color);
 }
 
 input[type="search"],
